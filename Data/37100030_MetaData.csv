@@ -1,0 +1,68 @@
+﻿"Cube Title","Product Id","CANSIM Id",URL,"Cube Notes","Archive Status",Frequency,"Start Reference Period","End Reference Period","Total number of dimensions"
+"National Graduates Survey (NGS), postsecondary graduates, by province of study and level of study",37100030,477-0062,"https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3710003001",1;2;3,"CURRENT - a cube available to the public and that is current","Every 5 years",2000-01-01,2015-01-01,3
+
+"Dimension ID","Dimension name","Dimension Notes","Dimension Definitions"
+1,"Province of study",,
+2,"Level of study",,
+3,Statistics,8;9,
+
+"Dimension ID","Member Name","Classification Code","Member ID","Parent Member ID",Terminated,"Member Notes","Member Definitions"
+1,Canada,[11124],1,,,4,
+1,"Newfoundland and Labrador",[10],2,1,,,
+1,"Prince Edward Island",[11],3,1,,,
+1,"Nova Scotia",[12],4,1,,,
+1,"New Brunswick",[13],5,1,,,
+1,Quebec,[24],6,1,,,
+1,Ontario,[35],7,1,,,
+1,Manitoba,[46],8,1,,,
+1,Saskatchewan,[47],9,1,,,
+1,Alberta,[48],10,1,,,
+1,"British Columbia",[59],11,1,,,
+2,College,,1,,,5,
+2,"Bachelor's",,2,,,6,
+2,"Master's",,3,,,7,
+2,Doctorate,,4,,,,
+3,"Number of graduates",,1,,,,
+3,Females,,2,1,,,
+3,"Average age at graduation",,3,,,,
+3,"Median age at graduation",,4,,,,
+3,"Under age 25 at graduation",,5,,,,
+3,"Pursued further postsecondary education between graduation and time of interview",,6,,,,
+
+Symbol Legend
+Description,Symbol
+"not available for a specific reference period",..
+"less than the limit of detection",<LOD
+"value rounded to 0 (zero) where there is a meaningful distinction between true zero and the value that was rounded",0s
+"data quality: excellent",A
+"data quality: very good",B
+"data quality: good",C
+"data quality: acceptable",D
+"use with caution",E
+"too unreliable to be published",F
+"not applicable",...
+preliminary,p
+revised,r
+"suppressed to meet the confidentiality requirements of the Statistics Act",x
+terminated,t
+
+"Survey Code","Survey Name"
+5012,"National Graduates Survey"
+
+"Subject Code","Subject Name"
+37,"Education, training and learning"
+
+"Note ID",Note
+1,"The target population for the 2018 National Graduates Survey (NGS) (class of 2015) corresponds to graduates of public postsecondary educational institutions in Canada during the 2015 calendar year who were living in Canada at the time of the interview. "
+2,"The 2018 National Graduates Survey (NGS) (class of 2015) and the 2013 NGS (class of 2009-2010) were conducted three years after graduation, whereas previous cycles of the NGS were conducted two years after graduation. While information on graduates at the time of graduation is comparable across cycles, information on graduates' activities at the time of the interview is not directly comparable.  "
+3,"The target population for the 2013 National Graduates Survey (NGS) (class of 2009-2010) corresponds to graduates of the 2009-2010 academic year, whereas the target population for all other cycles of the NGS is based on graduates of a calendar year."
+4,"The Canada-level estimates include the Yukon, the Northwest Territories and Nunavut."
+5,"College includes college or other non-university certificates, college or other non-university diplomas, collège d'enseignement général et professionnel (CEGEP) certificates, and CEGEP diplomas."
+6,"Bachelor's includes bachelor's degrees, degrees in medicine, dentistry, veterinary medicine and optometry, university certificates below bachelor's degrees, and university diplomas below bachelor's degrees."
+7,"Master's includes master's degrees, university diplomas above bachelor's degrees, and university certificates above bachelor's degrees. "
+8,"All estimates were subject to rounding."
+9,"Quality indicators are provided for selected estimates, and are displayed as a superscript beside the estimate.  The quality indicator is based on the coefficient of variation (CV) of the estimate and the number of unweighted respondent records that contribute to the estimate. The quality indicators for the 2018 National Graduates Survey (NGS) (class of 2015) are:  A: Excellent - CV is less than or equal to 0.05;  B: Very good - CV is greater than 0.05 and less than or equal to 0.15;  C: Good - CV is greater than 0.15 and less than or equal to 0.25;  D: Acceptable - CV is greater than 0.25 and less than or equal to 0.35;  E: Use with caution - CV is greater than 0.35 or the number of records that contribute to the estimate is less than 10.  The quality indicators for the previous cycles of the NGS are: E: Use with caution - CV greater than or equal to 16.6 and less than or equal to 33.3;  F: Too unreliable to be published - CV greater than 33.3."
+
+"Correction ID","Correction Date","Correction Note"
+
+
